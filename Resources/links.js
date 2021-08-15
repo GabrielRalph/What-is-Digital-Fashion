@@ -6,6 +6,6 @@ let ReportImages = {
   "RalphLauren":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.harpersbazaar.com%2Fuk%2Ffashion%2Ffashion-news%2Fa33541889%2Fralph-lauren-snapchat-partnership-bitmoji%2F&psig=AOvVaw0Xg7Jms3U_h7tcOBgBxe5I&ust=1629097797852000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCXhvO8svICFQAAAAAdAAAAABAD",
   "Stefan Hauswiesner":"https://s.yimg.com/ny/api/res/1.2/NOHTWZOjrlMJygZU2gXY_Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://s.yimg.com/uu/api/res/1.2/S8niplLCTo5UcAVFQMyn5g--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wwd_finance_675/79528dc51af73d79a86398ba75960618",
   "JJImage":"https://images.saatchiart.com/saatchi/388796/art/1762602/925383-DSFXZQPN-7.jpg",
-  "DB":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.saatchiart.com%2Fart%2FPainting-Broken-screen%2F852029%2F3101531%2Fview&psig=AOvVaw2kqI_7ltvfcX6CdwebnFlj&ust=1629102910214000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNjSibXPsvICFQAAAAAdAAAAABAD",
+  "DB":"https://images.saatchiart.com/saatchi/852029/art/3292307/2362194-SWEZXLLM-7.jpg",
 }
 export {ReportImages}
