@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What is Digital Fashion</title>
+  </head>
+  <body>
+    <h1>What is Digital Fashion</h1>
+    <h3>Manipulating Reality/Digital Fashion <br /> as a way of <br /> Envisioning and Transforming Ethicality and Inclusivity</h3>
+    <div>
+      <img name = "fashion week" />
+      <div class = "text-box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </body>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,200;1,400;1,600&display=swap');
+
+    h1{
+      text-align: center;
+    }
+    h3{
+      text-align: center;
+    }
+    body {
+      font-family: 'Exo', sans-serif;
+    }
+    img{
+      width: 50%;
+    }
+    div.text-box{
+      width: calc(50% - 3em);
+      float: right;
+
+      display: inline;
+    }
+
+
+
+  </style>
+
+
+
+  <script type = "module">
+    import {ReportImages} from "./links.js"
+    let images = document.getElementsByTagName("img");
+    for (let image of images) {
+      let name = image.name;
+      if (name in ReportImages) {
+        image.src = ReportImages[name];
+      }
+    }
+  </script>
+</html>
