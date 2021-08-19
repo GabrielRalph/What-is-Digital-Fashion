@@ -7,6 +7,5 @@ let ReportImages = {
   "JJImage":"https://images.saatchiart.com/saatchi/388796/art/1762602/925383-DSFXZQPN-7.jpg",
   "DB":"./Resources/crack_image.jpeg",
   "Jon Jacobsen":"https://images.saatchiart.com/saatchi/388796/art/4519239/3589079-QSIZBRMH-7.jpg"
-  "LV":"https://pbs.twimg.com/media/EJs3Jg_U4AAguHY.jpg",
 }
 export {ReportImages}
