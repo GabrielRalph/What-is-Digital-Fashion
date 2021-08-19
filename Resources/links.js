@@ -7,5 +7,6 @@ let ReportImages = {
   "Stefan Hauswiesner":"https://s.yimg.com/ny/api/res/1.2/NOHTWZOjrlMJygZU2gXY_Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://s.yimg.com/uu/api/res/1.2/S8niplLCTo5UcAVFQMyn5g--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wwd_finance_675/79528dc51af73d79a86398ba75960618",
   "JJImage":"https://images.saatchiart.com/saatchi/388796/art/1762602/925383-DSFXZQPN-7.jpg",
   "DB":"./Resources/crack_image.jpeg",
+  "Jon jacobsen image":"https://images.saatchiart.com/saatchi/388796/art/4519239/3589079-QSIZBRMH-7.jpg"
 }
 export {ReportImages}
