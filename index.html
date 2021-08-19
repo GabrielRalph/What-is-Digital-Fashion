@@ -12,7 +12,7 @@
         <div>
           <img name = "JJImage" />
         </div>
-        <div>
+        <div style="flex-shrink:1.4">
           <h4>Introduction</h4>
           <div class = "text-box" content = "Introduction">
           </div>
@@ -25,7 +25,7 @@
           <div class = "text-box" content = "Digital Fashion Aesthetics">
           </div>
         </div>
-        <div>
+        <div style="flex-shrink:0.7">
           <img name = "DB"/>
         </div>
       </div>
@@ -33,7 +33,7 @@
         <h2 style = "margin: 2em 0 0 0; display: inline-flex">Contempory Digital Fashion Illustrotors</h2>
       <!-- </div> -->
       <div class = "left-box" style = "float: right">
-        <div>
+        <div style="flex-shrink:0.8">
           <video autoplay muted playsinline loop>
             <source src="./Resources/yilmaz.mov" type="video/mp4">
           </video>
@@ -57,7 +57,7 @@
       </div>
 
       <div class = "left-box" style = "float: right">
-        <div>
+        <div style="flex-shrink:0.4">
           <img name = "Lola Zoido"/>
         </div>
         <div>
@@ -73,7 +73,7 @@
           <div class = "text-box" content = "Contemporary Fashion Media">
           </div>
         </div>
-        <div>
+        <div style="flex-shrink:0.9">
           <img name = "RalphLauren"/>
         </div>
       </div>
@@ -119,22 +119,9 @@
     h4 {
       margin-top: 0;
     }
-    img{
-      /* width: 50%; */
-    }
+
     div.text-right{
       float: right;
-      /* display: inline; */
-      /* text-align: right; */
-      /* display: inline;
-      margin-left: 1em; */
-    }
-    div.text-right{
-      float: right;
-      /* display: inline; */
-      /* text-align: right; */
-      /* display: inline;
-      margin-left: 1em; */
     }
 
 
@@ -142,31 +129,32 @@
     div.right-box{
       float: right;
       width: 100%;
-      /* padding-top: 1em; */
       display: flex;
       flex-direction: row;
-
     }
 
     .right-box > div:first-of-type{
       padding: 1em;
       text-align: right;
       background: #202020;
-      flex-shrink: 1.21;
       display: block;
       color: white;
     }
     .right-box > div:last-of-type{
-      flex-shrink: 1;
       display: inline-flex;
     }
 
 
     img{
-      width: 100%;
+      display: block;
+      max-width:100%;
+      width: auto;
       height: auto;
     }
 
+    .intro div, .left-box div, .right-box div{
+      flex-grow: 1;
+    }
 
     .intro, .left-box {
       width: 100%;
@@ -176,21 +164,19 @@
       margin-bottom: 1em;
     }
     .intro > div:first-of-type{
-      flex-shrink: 1;
       display: inline-flex;
     }
     .intro > div:last-of-type{
-      flex-shrink: 1.4;
       padding: 1em;
       background: white;
     }
 
     .left-box > div:first-of-type{
-      flex-shrink: 1;
+      /* flex-shrink: 1; */
       display: inline-flex;
     }
     .left-box > div:last-of-type{
-      flex-shrink: 1.2;
+      /* flex-shrink: 1.2; */
       padding: 1em;
       background: white;
     }
