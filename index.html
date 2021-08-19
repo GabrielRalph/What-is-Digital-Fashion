@@ -29,6 +29,54 @@
           <img name = "DB"/>
         </div>
       </div>
+      <!-- <div style = "display: flex"> -->
+        <h2 style = "margin: 2em 0 0 0; display: inline-flex">Contempory Digital Fashion Illustrotors</h2>
+      <!-- </div> -->
+      <div class = "left-box" style = "float: right">
+        <div>
+          <video autoplay muted playsinline loop>
+            <source src="./Resources/yilmaz.mov" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <h4>Yilmaz Sen</h4>
+          <div class = "text-box" content = "Yilmaz Sen">
+          </div>
+        </div>
+      </div>
+
+      <div class = "right-box" style = "float: right">
+        <div>
+          <h4>Jon Jacobsen</h4>
+          <div class = "text-box" content = "Jon Jacobsen">
+          </div>
+        </div>
+        <div>
+          <img name = "Jon Jacobsen"/>
+        </div>
+      </div>
+
+      <div class = "left-box" style = "float: right">
+        <div>
+          <img name = "Lola Zoido"/>
+        </div>
+        <div>
+          <h4>Lola Zoido</h4>
+          <div class = "text-box" content = "Lola Zoido">
+          </div>
+        </div>
+      </div>
+
+      <div class = "right-box" style = "float: right">
+        <div>
+          <h4>Contemporary Fashion Media</h4>
+          <div class = "text-box" content = "Contemporary Fashion Media">
+          </div>
+        </div>
+        <div>
+          <img name = "RalphLauren"/>
+        </div>
+      </div>
 
     </div>
   </body>
@@ -41,8 +89,13 @@
       --hcolor: black;
       font-family: 'Exo', sans-serif;
       background: white;
+      font-size: 1.8vw;
     }
 
+
+    video{
+      width: 100%;
+    }
 
 
     #main{
@@ -111,10 +164,11 @@
 
     img{
       width: 100%;
+      height: auto;
     }
 
 
-    .intro {
+    .intro, .left-box {
       width: 100%;
       padding-top: 1em;
       display: flex;
@@ -127,6 +181,16 @@
     }
     .intro > div:last-of-type{
       flex-shrink: 1.4;
+      padding: 1em;
+      background: white;
+    }
+
+    .left-box > div:first-of-type{
+      flex-shrink: 1;
+      display: inline-flex;
+    }
+    .left-box > div:last-of-type{
+      flex-shrink: 1.2;
       padding: 1em;
       background: white;
     }
